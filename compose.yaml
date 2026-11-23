@@ -1,0 +1,11 @@
+
+services:
+  banksystem:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: banksystem:1.0
+    container_name: banksystem
+    stdin_open: true
+    tty: true
+    restart: "no"

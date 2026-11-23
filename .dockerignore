@@ -1,0 +1,8 @@
+
+.git
+.github
+.vscode
+.idea
+*.exe
+*.dll
+*.log
